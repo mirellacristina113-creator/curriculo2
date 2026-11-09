@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Heloísa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="botoes">
+        <button id="btnEditar">
+            Editar
+        </button>
+
+        <button id="btnSair">
+            Sair
+        </button>
+    </div>
+
+    <main class="curriculo">
+
+        <header class="cabecalho">
+            <h1 id="perfilnome">MIRELLA</h1>
+            <h2 id="perfilcurso">Estudante de Desenvolvimento de Sistemas
+            </h2>
+        </header>
+
+        <div class="conteudo">
+
+            <section class="secao contato">
+                <h2>Informações de Contato</h2>
+
+                <p id="perfilnumero">Telefone:</p>(62) 97400-5055
+                </p>
+
+             
+       <p> <span id="perfilEmail">mirellacristina113@gmail.com</span></p>
+       <p> <span id="perfilNumero">(62) 6299842-9463</span></p>
+       <P> <span id="perfilCidade">Anapolis-Goias</span></p>
+    
+
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>Objetivo Profissional</h2>
+
+                <p contenteditable="false">
+                    Busco minha primeira oportunidade profissional
+                    para desenvolver habilidades, contribuir com a
+                    equipe, adquirir experiência e crescer no mercado
+                    de trabalho.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>Formação Acadêmica</h2>
+
+                <p class="escola" contenteditable="false">
+                    Colégio Estadual Herta Layser O'dwer
+                </p>
+
+                <p class="detalhes" contenteditable="false">
+                    Ensino Médio (2025–2027) — Cursando o 2º ano
+                    do curso Técnico em Desenvolvimento de Sistemas.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>Síntese de Qualificações</h2>
+
+                <p contenteditable="false">
+                    Sou proativa, criativa e tenho facilidade para
+                    trabalhar em equipe. Tenho vontade de aprender,
+                    gosto de desafios e estou sempre em busca de
+                    crescimento pessoal e profissional.
+                </p>
+            </section>
+
+            <section class="secao">
+                <h2>Disponibilidade</h2>
+
+                <div class="disponibilidade">
+                    <p contenteditable="false">
+                        <strong>Turno vespertino (tarde).</strong>
+                    </p>
+                </div>
+            </section>
+
+        </div>
+        <div class="formulario" id="areaFormulario" hidden>
+            <h2>Editar perfil</h2>
+            <form id="formPerfil">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+
+                <label for="numero">Numero:</label>
+                <input type="tel" id="numero" placeholder="(11) 99999-9999" required>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" required>
+
+                <button type="submit">Slvar Perfil</button>
+
+                <button type="button" id="cancelar">
+                    Cancelar
+                </button>
+
+        <footer class="rodape">
+            Currículo profissional
+        </footer>
+
+    </main>
+
+     <script src="script.js"></script>
+</body>
+</html>
